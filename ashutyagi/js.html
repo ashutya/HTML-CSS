@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <label for="number">enter number </label>
+    <input type="text" id="t1">
+    <br>
+    <button onclick="factorial()">click here</button>
+</div>
+        <script>
+         function factorial()
+         {
+            let fact=1;
+            n=document.getElementById('t1').value;
+            for(i=1;i<=n;i++)
+            fact=fact*i;
+            document.write("fact of a number is"+fact);
+         }
+         factorial();
+         
+    </script>
+</body>
+</html>
