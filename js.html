@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div
+        {
+            background-color: aqua;
+        }
+        
+    </style>
+</head>
+<body>
+   
+    <label for="number">enter number </label>
+    <input type="text" id="t1">
+    <br>
+    <button onclick="factorial()">click here</button>
+
+        <script>
+         function factorial()
+         {
+            let fact=1;
+            n=document.getElementById('t1').value;
+            for(i=1;i<=n;i++)
+            fact=fact*i;
+            document.write("fact of a number is"+fact);
+         }
+         factorial();
+         function change()
+         {
+            document.getElementById("d1").style.backgroundColor="red";
+         }
+         function change1()
+         {
+            document.getElementById("d1").style.backgroundColor="yellow";
+         }
+         function change2()
+         {
+           document.getElementById("d2").src="https://i.pinimg.com/originals/55/74/54/557454f9d762c6b6c9efdaec66b4dbb9.jpg"
+         }
+         function change3()
+         {
+           document.getElementById("d2").src="https://t3.ftcdn.net/jpg/03/91/46/10/360_F_391461057_5P0BOWl4lY442Zoo9rzEeJU0S2c1WDZR.jpg"
+         }
+    </script>
+    <div id="d1" onmouseover="change()" onmouseleave="change1()">
+        Hello html css java script
+    </div>
+    <div >
+        <img id="d2" src="https://img.freepik.com/free-vector/abstract-colorful-technology-dotted-wave-background_1035-17450.jpg" onmouseover="change2()" onmouseleave="change3()">
+     helllo this is image change activity 
+    </div>
+</body>
+</html>
