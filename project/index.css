@@ -1,0 +1,99 @@
+ /* css reset  */
+ body{
+    font-family: 'Baloo 2', cursive;
+    color: white;
+    margin:0px;
+    padding:0px;
+    height: 0px;
+     /* width: 0px;   */
+    background: url('https://images.pexels.com/photos/2105493/pexels-photo-2105493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+
+}
+.left{ 
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    display: inline-block;
+      /* border: 2px solid red;  */
+}
+.mid{
+    display:block ;
+      /* border: 2px solid green; */
+      width: 50%;
+      margin: 10px auto;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 30px;
+    display: inline-block;
+ /* border: 2px solid yellow; */
+}
+.navbar{
+    display: inline-block; 
+
+}
+.navbar li{
+    display: inline-block;
+    font-size: 15px;
+}
+.navbar li a{
+     text-decoration: none;  
+    color: burlywood;
+    padding: 25px 15px;
+}
+.navbar li a:hover,.navbar li a.active{
+     text-decoration: underline;
+     color: white
+}
+.left img{
+    width: 100px;
+    height: 80px;
+}
+.left div{
+    text-align: center;
+}
+.btn{
+    font-family: 'Baloo 2', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 2px 2px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: gray;
+}
+.container{
+    border: 2px solid white;
+    margin: 100px 80px;
+    padding: 70px;
+    width: 37%;
+    border-radius: 2px;
+}
+.form-group input
+{
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+} 
+.container h1{
+    text-align: center;
+}
+.container button
+{
+    display: block;
+    width: 50%;
+    margin: auto;      
+
+}
+
