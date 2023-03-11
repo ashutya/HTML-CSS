@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psudo selector and more designing</title>
+    <style>
+        .container{
+            border: 2px solid red;
+            background-color: bisque;
+            padding: 34px;
+            margin: auto;
+            width: 455px;
+        }
+        .btn{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: rgb(208, 212, 217);
+            cursor: pointer;
+            border: none;
+            cursor: pointer;
+            font-size: 13px; 
+            border-radius: 4px;
+        }
+        .btn:hover{
+            color: darkgoldenrod;
+            background-color: aliceblue;
+            font-weight: bold;
+            border: 2px solid black;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        /* sudo selecters */
+        a:hover{
+            color: yellow;
+            background-color: rgb(6, 1, 11);
+        }
+        a:visited{
+         background-color: rgb(44, 139, 44);
+        }
+        a:active{
+            background-color: rgb(238, 25, 25);
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>this is my heading </h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit accusamus dolorum exercitationem mollitia cumque animi fugiat quam culpa blanditiis saepe consequatur incidunt quaerat nemo, tempore quod possimus aperiam inventore alias.
+        </p>
+        <a href="https://www.google.com" class="btn"> read more</a>
+        <button class="btn"> contact us </button>
+    </div>
+</body>
+</html>
